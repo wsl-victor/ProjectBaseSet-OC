@@ -1,0 +1,14 @@
+# Xcode
+.DS_Store
+Build/
+*/build/*
+*.pbxuser
+!default.pbxuser
+xcuserdata
+profile
+DerivedData
+*.xccheckout
+Build/
+*.lock
+#CocoaPods
+Pods

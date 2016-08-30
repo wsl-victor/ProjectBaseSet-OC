@@ -1,0 +1,9 @@
+关于
+
+（1）向项目中添加pch文件
+    1.打开你的Xcode工程. 在Supporting Files目录下,选择 File > New > File > iOS > Other > PCH File 然后点击下一步；
+    2.假设你的项目名称为TestDemo, 你的PCH 文件的名字应该为 TestDemo-Prefix.pch,然后创建；
+    3.找到 Project > Build Settings > 搜索 “Prefix Header“；
+    4. “Apple LLVM 7.0 -Language″ 栏目中你将会看到 Prefix Header 关键字；
+    5.输入 $(SRCROOT)/pchFile.pch  改为  $(SRCROOT)/TestDemo/TestDemo-Prefix.pch
+    6.将Precompile Prefix Header为YES，预编译后的pch文件会被缓存起来，可以提高编译速度。效果如下

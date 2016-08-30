@@ -1,0 +1,17 @@
+//
+//  ProjectBaseSetPrefixHeader.pch
+//  ProjectBaseSet
+//
+//  Created by victor on 16/8/29.
+//  Copyright © 2016年 wsl. All rights reserved.
+//
+
+#ifndef ProjectBaseSetPrefixHeader_pch
+#define ProjectBaseSetPrefixHeader_pch
+
+
+#import "PBSAllMacroH.h"
+
+
+
+#endif /* ProjectBaseSetPrefixHeader_pch */
