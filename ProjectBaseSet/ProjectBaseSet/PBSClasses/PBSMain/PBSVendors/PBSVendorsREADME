@@ -20,3 +20,9 @@ view1.row_height = 40;
 view1.titleTextColor = [UIColor blackColor];
 view1.delegate = self;
 [view1 popView];
+
+
+
+
+(4)二维码
+##https://github.com/search?utf8=%E2%9C%93&q=LBXScan

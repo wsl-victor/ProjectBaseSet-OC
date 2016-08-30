@@ -4,9 +4,17 @@ target ‘ProjectBaseSet’ do
 
   pod 'AFNetworking', '~> 3.1.0'
   pod 'SDWebImage', '~> 3.8.1'
-  pod 'Masonry', '~> 1.0.1'
+  #pod 'Masonry', '~> 1.0.1'
+  pod 'SDAutoLayout', '~> 2.1.7'
+  ##https://github.com/gsdios/SDAutoLayout
   pod 'MJRefresh', '~> 3.1.12'
   pod 'MJExtension', '~> 3.0.13'
+
+  pod 'MWPhotoBrowser', '~> 2.1.2'
+  #图片浏览器
+
+   pod 'ZXingObjC', '~> 3.1.0'
+
 
 
 end

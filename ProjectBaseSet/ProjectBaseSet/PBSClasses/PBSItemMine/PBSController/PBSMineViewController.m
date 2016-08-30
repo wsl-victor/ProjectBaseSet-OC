@@ -7,7 +7,7 @@
 //
 
 #import "PBSMineViewController.h"
-
+#import "LBToAppStore.h"
 @interface PBSMineViewController ()
 
 @end
@@ -17,6 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+
+
+-(void)goToAppStore
+{
+    //用户好评系统
+    LBToAppStore *toAppStore = [[LBToAppStore alloc]init];
+    toAppStore.myAppID = @"12222222";
+    [toAppStore showGotoAppStore:self];
 }
 
 - (void)didReceiveMemoryWarning {
