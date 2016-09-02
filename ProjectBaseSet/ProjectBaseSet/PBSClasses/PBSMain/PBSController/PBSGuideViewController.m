@@ -512,7 +512,9 @@
  */
 - (void)go2MainVC:(UIButton *)btn
 {
-   
+    PBSMainTabBarController *pbsMainTabVc=[[PBSMainTabBarController alloc] init];
+    UIWindow *window=[UIApplication sharedApplication].keyWindow;
+    window.rootViewController=pbsMainTabVc;
 }
 
 /**

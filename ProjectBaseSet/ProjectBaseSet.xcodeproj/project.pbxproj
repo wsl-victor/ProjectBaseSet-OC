@@ -64,7 +64,7 @@
 		57C4AAAA1D7524A500D62D85 /* UIImage+PBSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AAA91D7524A500D62D85 /* UIImage+PBSExtension.m */; };
 		57C4AAAD1D752A3B00D62D85 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AAAC1D752A3B00D62D85 /* UIBarButtonItem+Extension.m */; };
 		57C4AAB11D753B7A00D62D85 /* LBLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AAB01D753B7A00D62D85 /* LBLaunchImageAdView.m */; };
-		57C4AAB31D75528000D62D85 /* qidong.gif in Resources */ = {isa = PBXBuildFile; fileRef = 57C4AAB21D75528000D62D85 /* qidong.gif */; };
+		57C4AAB31D75528000D62D85 /* qidonggg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 57C4AAB21D75528000D62D85 /* qidonggg.gif */; };
 		57C4AAB61D755E3C00D62D85 /* PBSGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AAB51D755E3C00D62D85 /* PBSGuideViewController.m */; };
 		57C4AC981D756ACA00D62D85 /* NSFetchRequest+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AABB1D756AC900D62D85 /* NSFetchRequest+Extensions.m */; };
 		57C4AC991D756ACA00D62D85 /* NSManagedObject+DictionaryExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AABE1D756AC900D62D85 /* NSManagedObject+DictionaryExport.m */; };
@@ -424,7 +424,7 @@
 		57C4AAAC1D752A3B00D62D85 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		57C4AAAF1D753B7A00D62D85 /* LBLaunchImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBLaunchImageAdView.h; sourceTree = "<group>"; };
 		57C4AAB01D753B7A00D62D85 /* LBLaunchImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBLaunchImageAdView.m; sourceTree = "<group>"; };
-		57C4AAB21D75528000D62D85 /* qidong.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = qidong.gif; sourceTree = "<group>"; };
+		57C4AAB21D75528000D62D85 /* qidonggg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = qidonggg.gif; sourceTree = "<group>"; };
 		57C4AAB41D755E3C00D62D85 /* PBSGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSGuideViewController.h; sourceTree = "<group>"; };
 		57C4AAB51D755E3C00D62D85 /* PBSGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSGuideViewController.m; sourceTree = "<group>"; };
 		57C4AABA1D756AC900D62D85 /* NSFetchRequest+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchRequest+Extensions.h"; sourceTree = "<group>"; };
@@ -1167,7 +1167,7 @@
 		575270801D740AE70022EEA2 /* PBSResources */ = {
 			isa = PBXGroup;
 			children = (
-				57C4AAB21D75528000D62D85 /* qidong.gif */,
+				57C4AAB21D75528000D62D85 /* qidonggg.gif */,
 				575270811D740AE70022EEA2 /* PBSPlist */,
 			);
 			path = PBSResources;
@@ -2506,7 +2506,7 @@
 				575270AC1D7420C00022EEA2 /* PBSVendorsREADME in Resources */,
 				57C4AD8E1D75857100D62D85 /* di.mp3 in Resources */,
 				575270621D73E82E0022EEA2 /* README in Resources */,
-				57C4AAB31D75528000D62D85 /* qidong.gif in Resources */,
+				57C4AAB31D75528000D62D85 /* qidonggg.gif in Resources */,
 				57C4ACB31D756ACA00D62D85 /* NSDateTimeAgo.bundle in Resources */,
 				575270B31D74213F0022EEA2 /* MSAlertController.xib in Resources */,
 				57C4AD8F1D75857100D62D85 /* photoShutter2.caf in Resources */,

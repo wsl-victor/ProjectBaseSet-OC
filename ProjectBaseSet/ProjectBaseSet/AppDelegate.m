@@ -24,23 +24,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+  
+    
     // 1.创建窗口
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.rootViewController=[[PBSADo_ViewController alloc] init];
-
     // 2.显示窗口(成为主窗口)
     [self.window makeKeyAndVisible];
     
-    
-    LBLaunchImageAdView *adView =[[LBLaunchImageAdView alloc] initWithWindow:self.window andType:FullScreenAdType];
-    adView.localAdImgName = @"qidong.gif";
+    LBLaunchImageAdView *adView =[[LBLaunchImageAdView alloc] initWithWindow:self.window andType:LogoAdType];
+    adView.localAdImgName = @"qidonggg.gif";
     
     //各种回调
     adView.clickBlock = ^(NSInteger tag){
         switch (tag) {
             case 1100:{
-               
+                
             }
                 break;
             case 1101:
@@ -48,6 +49,9 @@
                 break;
             case 1102:
                 NSLog(@"倒计时完成后的回调");
+                
+                
+               
                 break;
             default:
                 break;
@@ -55,7 +59,8 @@
         
     };
 
-    
+  
+   
     
     
     return YES;
