@@ -70,6 +70,7 @@
 		579184091D795F0900835A7B /* PBSRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 579184081D795F0900835A7B /* PBSRSAEncryptor.m */; };
 		5791840B1D795F8C00835A7B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5791840A1D795F8C00835A7B /* Security.framework */; };
 		5791840E1D79638300835A7B /* RSAEncryptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5791840D1D79638300835A7B /* RSAEncryptViewController.m */; };
+		579184111D79742F00835A7B /* PBSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 579184101D79742F00835A7B /* PBSAttributedString.m */; };
 		57B0D2C01D76D5C700EC879D /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D2BF1D76D5C700EC879D /* OtherViewController.m */; };
 		57C4AAA01D7522BB00D62D85 /* PBSMainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AA9F1D7522BB00D62D85 /* PBSMainTabBar.m */; };
 		57C4AAA31D7522DF00D62D85 /* PBSMainBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AAA21D7522DF00D62D85 /* PBSMainBadgeView.m */; };
@@ -438,6 +439,8 @@
 		5791840A1D795F8C00835A7B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5791840C1D79638300835A7B /* RSAEncryptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptViewController.h; sourceTree = "<group>"; };
 		5791840D1D79638300835A7B /* RSAEncryptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptViewController.m; sourceTree = "<group>"; };
+		5791840F1D79742F00835A7B /* PBSAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSAttributedString.h; sourceTree = "<group>"; };
+		579184101D79742F00835A7B /* PBSAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSAttributedString.m; sourceTree = "<group>"; };
 		57B0D2BC1D76D42200EC879D /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		57B0D2BE1D76D5C700EC879D /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		57B0D2BF1D76D5C700EC879D /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
@@ -1170,6 +1173,8 @@
 				579183E71D79170400835A7B /* PBSOtherTool.m */,
 				579184071D795F0900835A7B /* PBSRSAEncryptor.h */,
 				579184081D795F0900835A7B /* PBSRSAEncryptor.m */,
+				5791840F1D79742F00835A7B /* PBSAttributedString.h */,
+				579184101D79742F00835A7B /* PBSAttributedString.m */,
 			);
 			path = PBSTools;
 			sourceTree = "<group>";
@@ -2864,6 +2869,7 @@
 				57C4AD271D756ACA00D62D85 /* UILabel+SuggestSize.m in Sources */,
 				57C4AD381D756ACA00D62D85 /* UISearchBar+Blocks.m in Sources */,
 				57C4ACB21D756ACA00D62D85 /* NSDate+Utilities.m in Sources */,
+				579184111D79742F00835A7B /* PBSAttributedString.m in Sources */,
 				57C4AD0E1D756ACA00D62D85 /* UIImage+Alpha.m in Sources */,
 				57C4AC9D1D756ACA00D62D85 /* NSManagedObjectContext+FetchRequestsConstructors.m in Sources */,
 				57C4AD721D75819300D62D85 /* UIImageView+CornerRadius.m in Sources */,
