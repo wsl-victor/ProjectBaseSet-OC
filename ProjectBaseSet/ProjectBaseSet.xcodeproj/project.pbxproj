@@ -58,6 +58,8 @@
 		579183E81D79170400835A7B /* PBSOtherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183E71D79170400835A7B /* PBSOtherTool.m */; };
 		579183EB1D791E5600835A7B /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183EA1D791E5600835A7B /* NSData+Base64.m */; };
 		579183EE1D791E9000835A7B /* NSData+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183ED1D791E9000835A7B /* NSData+Encrypt.m */; };
+		579183F11D79255100835A7B /* UICountingLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183F01D79255100835A7B /* UICountingLabelViewController.m */; };
+		579183F51D7926E100835A7B /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183F41D7926E100835A7B /* UICountingLabel.m */; };
 		57B0D2C01D76D5C700EC879D /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D2BF1D76D5C700EC879D /* OtherViewController.m */; };
 		57C4AAA01D7522BB00D62D85 /* PBSMainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AA9F1D7522BB00D62D85 /* PBSMainTabBar.m */; };
 		57C4AAA31D7522DF00D62D85 /* PBSMainBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AAA21D7522DF00D62D85 /* PBSMainBadgeView.m */; };
@@ -410,6 +412,10 @@
 		579183EA1D791E5600835A7B /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		579183EC1D791E9000835A7B /* NSData+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encrypt.h"; sourceTree = "<group>"; };
 		579183ED1D791E9000835A7B /* NSData+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encrypt.m"; sourceTree = "<group>"; };
+		579183EF1D79255100835A7B /* UICountingLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabelViewController.h; sourceTree = "<group>"; };
+		579183F01D79255100835A7B /* UICountingLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabelViewController.m; sourceTree = "<group>"; };
+		579183F31D7926E100835A7B /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		579183F41D7926E100835A7B /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
 		57B0D2BC1D76D42200EC879D /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		57B0D2BE1D76D5C700EC879D /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		57B0D2BF1D76D5C700EC879D /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
@@ -978,6 +984,8 @@
 			children = (
 				5752708B1D740DDD0022EEA2 /* PBSHomeViewController.h */,
 				5752708C1D740DDD0022EEA2 /* PBSHomeViewController.m */,
+				579183EF1D79255100835A7B /* UICountingLabelViewController.h */,
+				579183F01D79255100835A7B /* UICountingLabelViewController.m */,
 			);
 			path = PBSController;
 			sourceTree = "<group>";
@@ -992,6 +1000,7 @@
 		575270701D740AE70022EEA2 /* PBSView */ = {
 			isa = PBXGroup;
 			children = (
+				579183F21D7926C200835A7B /* UICountingLabel */,
 			);
 			path = PBSView;
 			sourceTree = "<group>";
@@ -1365,6 +1374,15 @@
 				579183E41D7914F500835A7B /* PBSLObject.m */,
 			);
 			path = PBSModel;
+			sourceTree = "<group>";
+		};
+		579183F21D7926C200835A7B /* UICountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				579183F31D7926E100835A7B /* UICountingLabel.h */,
+				579183F41D7926E100835A7B /* UICountingLabel.m */,
+			);
+			path = UICountingLabel;
 			sourceTree = "<group>";
 		};
 		57B0D2BD1D76D59200EC879D /* Other */ = {
@@ -2673,6 +2691,7 @@
 				57C4AD911D75857100D62D85 /* LBXScanNative.m in Sources */,
 				57C4ACCD1D756ACA00D62D85 /* NSSet+Block.m in Sources */,
 				57C4AD371D756ACA00D62D85 /* UIScrollView+Pages.m in Sources */,
+				579183F51D7926E100835A7B /* UICountingLabel.m in Sources */,
 				57C4ACC11D756ACA00D62D85 /* NSDecimalNumber+Extensions.m in Sources */,
 				57C4ACDB1D756ACA00D62D85 /* NSString+Score.m in Sources */,
 				57C4ACB11D756ACA00D62D85 /* NSDate+TimeAgo.m in Sources */,
@@ -2716,6 +2735,7 @@
 				57C4AD941D75857100D62D85 /* LBXScanVideoZoomView.m in Sources */,
 				57C4ACE01D756ACA00D62D85 /* NSString+XML.m in Sources */,
 				57C4ACFA1D756ACA00D62D85 /* UIBezierPath+SVG.m in Sources */,
+				579183F11D79255100835A7B /* UICountingLabelViewController.m in Sources */,
 				57C4AD421D756ACA00D62D85 /* UITextView+PlaceHolder.m in Sources */,
 				57C4AD101D756ACA00D62D85 /* UIImage+BetterFace.m in Sources */,
 				57C4AD261D756ACA00D62D85 /* UILabel+ESAdjustableLabel.m in Sources */,
