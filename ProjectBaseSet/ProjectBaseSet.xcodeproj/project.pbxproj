@@ -60,6 +60,16 @@
 		579183EE1D791E9000835A7B /* NSData+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183ED1D791E9000835A7B /* NSData+Encrypt.m */; };
 		579183F11D79255100835A7B /* UICountingLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183F01D79255100835A7B /* UICountingLabelViewController.m */; };
 		579183F51D7926E100835A7B /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183F41D7926E100835A7B /* UICountingLabel.m */; };
+		579184001D795EBD00835A7B /* pkcs8_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 579183F91D795EBD00835A7B /* pkcs8_private_key.pem */; };
+		579184011D795EBD00835A7B /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 579183FA1D795EBD00835A7B /* private_key.p12 */; };
+		579184021D795EBD00835A7B /* private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 579183FB1D795EBD00835A7B /* private_key.pem */; };
+		579184031D795EBD00835A7B /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 579183FC1D795EBD00835A7B /* public_key.der */; };
+		579184041D795EBD00835A7B /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 579183FD1D795EBD00835A7B /* rsa_public_key.pem */; };
+		579184051D795EBD00835A7B /* rsaCerReq.csr in Resources */ = {isa = PBXBuildFile; fileRef = 579183FE1D795EBD00835A7B /* rsaCerReq.csr */; };
+		579184061D795EBD00835A7B /* rsaCert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 579183FF1D795EBD00835A7B /* rsaCert.crt */; };
+		579184091D795F0900835A7B /* PBSRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 579184081D795F0900835A7B /* PBSRSAEncryptor.m */; };
+		5791840B1D795F8C00835A7B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5791840A1D795F8C00835A7B /* Security.framework */; };
+		5791840E1D79638300835A7B /* RSAEncryptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5791840D1D79638300835A7B /* RSAEncryptViewController.m */; };
 		57B0D2C01D76D5C700EC879D /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D2BF1D76D5C700EC879D /* OtherViewController.m */; };
 		57C4AAA01D7522BB00D62D85 /* PBSMainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AA9F1D7522BB00D62D85 /* PBSMainTabBar.m */; };
 		57C4AAA31D7522DF00D62D85 /* PBSMainBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AAA21D7522DF00D62D85 /* PBSMainBadgeView.m */; };
@@ -416,6 +426,18 @@
 		579183F01D79255100835A7B /* UICountingLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabelViewController.m; sourceTree = "<group>"; };
 		579183F31D7926E100835A7B /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
 		579183F41D7926E100835A7B /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		579183F91D795EBD00835A7B /* pkcs8_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pkcs8_private_key.pem; sourceTree = "<group>"; };
+		579183FA1D795EBD00835A7B /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		579183FB1D795EBD00835A7B /* private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private_key.pem; sourceTree = "<group>"; };
+		579183FC1D795EBD00835A7B /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		579183FD1D795EBD00835A7B /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
+		579183FE1D795EBD00835A7B /* rsaCerReq.csr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCerReq.csr; sourceTree = "<group>"; };
+		579183FF1D795EBD00835A7B /* rsaCert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCert.crt; sourceTree = "<group>"; };
+		579184071D795F0900835A7B /* PBSRSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSRSAEncryptor.h; sourceTree = "<group>"; };
+		579184081D795F0900835A7B /* PBSRSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSRSAEncryptor.m; sourceTree = "<group>"; };
+		5791840A1D795F8C00835A7B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5791840C1D79638300835A7B /* RSAEncryptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptViewController.h; sourceTree = "<group>"; };
+		5791840D1D79638300835A7B /* RSAEncryptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptViewController.m; sourceTree = "<group>"; };
 		57B0D2BC1D76D42200EC879D /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		57B0D2BE1D76D5C700EC879D /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		57B0D2BF1D76D5C700EC879D /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
@@ -868,6 +890,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5791840B1D795F8C00835A7B /* Security.framework in Frameworks */,
 				93472F20615B8A078E66DA0B /* libPods-ProjectBaseSet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -986,6 +1009,8 @@
 				5752708C1D740DDD0022EEA2 /* PBSHomeViewController.m */,
 				579183EF1D79255100835A7B /* UICountingLabelViewController.h */,
 				579183F01D79255100835A7B /* UICountingLabelViewController.m */,
+				5791840C1D79638300835A7B /* RSAEncryptViewController.h */,
+				5791840D1D79638300835A7B /* RSAEncryptViewController.m */,
 			);
 			path = PBSController;
 			sourceTree = "<group>";
@@ -1143,6 +1168,8 @@
 				575271131D743D4B0022EEA2 /* PBSNavigationAnimation.m */,
 				579183E61D79170400835A7B /* PBSOtherTool.h */,
 				579183E71D79170400835A7B /* PBSOtherTool.m */,
+				579184071D795F0900835A7B /* PBSRSAEncryptor.h */,
+				579184081D795F0900835A7B /* PBSRSAEncryptor.m */,
 			);
 			path = PBSTools;
 			sourceTree = "<group>";
@@ -1176,6 +1203,7 @@
 		575270801D740AE70022EEA2 /* PBSResources */ = {
 			isa = PBXGroup;
 			children = (
+				579183F81D795E9700835A7B /* RSA */,
 				57C4AAB21D75528000D62D85 /* qidonggg.gif */,
 				575270811D740AE70022EEA2 /* PBSPlist */,
 			);
@@ -1383,6 +1411,20 @@
 				579183F41D7926E100835A7B /* UICountingLabel.m */,
 			);
 			path = UICountingLabel;
+			sourceTree = "<group>";
+		};
+		579183F81D795E9700835A7B /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				579183F91D795EBD00835A7B /* pkcs8_private_key.pem */,
+				579183FA1D795EBD00835A7B /* private_key.p12 */,
+				579183FB1D795EBD00835A7B /* private_key.pem */,
+				579183FC1D795EBD00835A7B /* public_key.der */,
+				579183FD1D795EBD00835A7B /* rsa_public_key.pem */,
+				579183FE1D795EBD00835A7B /* rsaCerReq.csr */,
+				579183FF1D795EBD00835A7B /* rsaCert.crt */,
+			);
+			path = RSA;
 			sourceTree = "<group>";
 		};
 		57B0D2BD1D76D59200EC879D /* Other */ = {
@@ -2400,6 +2442,7 @@
 		9AD19D3E9638ABEC21AFF084 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5791840A1D795F8C00835A7B /* Security.framework */,
 				EC49EA85B730D44E566BF154 /* libPods-ProjectBaseSet.a */,
 			);
 			name = Frameworks;
@@ -2523,12 +2566,19 @@
 			files = (
 				575270AC1D7420C00022EEA2 /* PBSVendorsREADME in Resources */,
 				57C4AD8E1D75857100D62D85 /* di.mp3 in Resources */,
+				579184031D795EBD00835A7B /* public_key.der in Resources */,
+				579184021D795EBD00835A7B /* private_key.pem in Resources */,
 				575270621D73E82E0022EEA2 /* README in Resources */,
+				579184051D795EBD00835A7B /* rsaCerReq.csr in Resources */,
+				579184061D795EBD00835A7B /* rsaCert.crt in Resources */,
 				57C4AAB31D75528000D62D85 /* qidonggg.gif in Resources */,
 				57C4ACB31D756ACA00D62D85 /* NSDateTimeAgo.bundle in Resources */,
 				575270B31D74213F0022EEA2 /* MSAlertController.xib in Resources */,
+				579184001D795EBD00835A7B /* pkcs8_private_key.pem in Resources */,
 				57C4AD8F1D75857100D62D85 /* photoShutter2.caf in Resources */,
 				575270B41D74213F0022EEA2 /* MSAlertController_ActionSheet.xib in Resources */,
+				579184011D795EBD00835A7B /* private_key.p12 in Resources */,
+				579184041D795EBD00835A7B /* rsa_public_key.pem in Resources */,
 				576253A91D6EF51D005F370A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2703,6 +2753,7 @@
 				57C4ACFB1D756ACA00D62D85 /* UIBezierPath+Symbol.m in Sources */,
 				57C4ACD51D756ACA00D62D85 /* NSString+Matcher.m in Sources */,
 				57C4AD351D756ACA00D62D85 /* UIScrollView+Addition.m in Sources */,
+				5791840E1D79638300835A7B /* RSAEncryptViewController.m in Sources */,
 				57C4AD231D756ACA00D62D85 /* UIImageView+Reflect.m in Sources */,
 				575270F51D7431B00022EEA2 /* RTSpinKitCircleAnimation.m in Sources */,
 				57C4AD2A1D756ACA00D62D85 /* UINavigationController+JZExtension.m in Sources */,
@@ -2862,6 +2913,7 @@
 				57C4AD451D756ACA00D62D85 /* UIView+BlockGesture.m in Sources */,
 				57C4ACF11D756ACA00D62D85 /* CATransaction+AnimateWithDuration.m in Sources */,
 				57C4ACFE1D756ACA00D62D85 /* UIButton+CountDown.m in Sources */,
+				579184091D795F0900835A7B /* PBSRSAEncryptor.m in Sources */,
 				579183EB1D791E5600835A7B /* NSData+Base64.m in Sources */,
 				57C4ACBD1D756ACA00D62D85 /* NSFileManager+Paths.m in Sources */,
 				57C4AD591D756ACA00D62D85 /* UIViewController+ScrollingStatusBar.m in Sources */,

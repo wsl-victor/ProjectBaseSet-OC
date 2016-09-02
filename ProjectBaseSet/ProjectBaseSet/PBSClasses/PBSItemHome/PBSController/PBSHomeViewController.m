@@ -10,19 +10,30 @@
 
 
 #import "UICountingLabelViewController.h"
-
+#import "RSAEncryptViewController.h"
 
 @interface PBSHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 
 @property (nonatomic,weak) UITableView *homeTableView;
 
+@property (nonatomic,strong) NSMutableArray *listArr;
+
 @end
 
 @implementation PBSHomeViewController
 
+-(NSMutableArray *)listArr
+{
+    if (_listArr==nil) {
+        _listArr=[NSMutableArray array];
+    }
+    return _listArr;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self createinitArr];
     [self createInitView];
 }
 
@@ -43,7 +54,10 @@
 
 -(void)createinitArr
 {
+    NSArray *ar=@[@"数字动画效果",
+                  @"RSA加密"];
     
+    [self.listArr addObjectsFromArray:ar];
 }
 
 
@@ -56,7 +70,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return self.listArr.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -66,7 +80,7 @@
         cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"indexCell"];
     }
     
-    cell.textLabel.text=@"数字动画效果";
+    cell.textLabel.text=self.listArr[indexPath.row];
     
     return cell;
 }
@@ -78,6 +92,9 @@
     if (indexPath.row==0) {
         UICountingLabelViewController *countingVc=[[UICountingLabelViewController alloc] init];
         
+        [self.navigationController pushViewController:countingVc animated:YES];
+    }else if(indexPath.row==1){
+        RSAEncryptViewController *countingVc=[[RSAEncryptViewController alloc] init];
         [self.navigationController pushViewController:countingVc animated:YES];
     }
 }
