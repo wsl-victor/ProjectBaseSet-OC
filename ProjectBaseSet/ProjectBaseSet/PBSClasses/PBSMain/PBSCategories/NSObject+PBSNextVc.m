@@ -23,5 +23,21 @@
     return nil;
 }
 
+//获取某个view所在的控制器
++(UIViewController *)viewController:(UIView *)viewObj
+{
+    UIViewController *viewController = nil;
+    UIResponder *next = viewObj.nextResponder;
+    while (next)
+    {
+        if ([next isKindOfClass:[UIViewController class]])
+        {
+            viewController = (UIViewController *)next;
+            break;
+        }
+        next = next.nextResponder;
+    } 
+    return viewController;
+}
 
 @end

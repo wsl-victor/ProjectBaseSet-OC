@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MBProgressHUD.h"
+
 #import "RTSpinKitView.h"
 @interface PBSProgressHud : NSObject
 
-+(void)showHudLoadingAnimation:(NSString *)text;
 
 
 @end
