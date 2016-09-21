@@ -54,6 +54,10 @@
 		576253A91D6EF51D005F370A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576253A81D6EF51D005F370A /* Assets.xcassets */; };
 		576253B71D6EF51D005F370A /* ProjectBaseSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576253B61D6EF51D005F370A /* ProjectBaseSetTests.m */; };
 		576253C21D6EF51D005F370A /* ProjectBaseSetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576253C11D6EF51D005F370A /* ProjectBaseSetUITests.m */; };
+		5787E2EC1D7E53BB008C39EF /* PieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787E2EA1D7E53BB008C39EF /* PieViewController.m */; };
+		5787E2ED1D7E53BB008C39EF /* PieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5787E2EB1D7E53BB008C39EF /* PieViewController.xib */; };
+		578F35AB1D9288C300C2F13A /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 578F35A81D9288C300C2F13A /* NSArray+Extension.m */; };
+		578F35AC1D9288C300C2F13A /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 578F35AA1D9288C300C2F13A /* NSDictionary+Extension.m */; };
 		579183E51D7914F500835A7B /* PBSLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183E41D7914F500835A7B /* PBSLObject.m */; };
 		579183E81D79170400835A7B /* PBSOtherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183E71D79170400835A7B /* PBSOtherTool.m */; };
 		579183EB1D791E5600835A7B /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 579183EA1D791E5600835A7B /* NSData+Base64.m */; };
@@ -415,6 +419,13 @@
 		576253BD1D6EF51D005F370A /* ProjectBaseSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectBaseSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576253C11D6EF51D005F370A /* ProjectBaseSetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectBaseSetUITests.m; sourceTree = "<group>"; };
 		576253C31D6EF51D005F370A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5787E2E91D7E53BB008C39EF /* PieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieViewController.h; sourceTree = "<group>"; };
+		5787E2EA1D7E53BB008C39EF /* PieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieViewController.m; sourceTree = "<group>"; };
+		5787E2EB1D7E53BB008C39EF /* PieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieViewController.xib; sourceTree = "<group>"; };
+		578F35A71D9288C300C2F13A /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		578F35A81D9288C300C2F13A /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		578F35A91D9288C300C2F13A /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		578F35AA1D9288C300C2F13A /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
 		579183E31D7914F500835A7B /* PBSLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSLObject.h; sourceTree = "<group>"; };
 		579183E41D7914F500835A7B /* PBSLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSLObject.m; sourceTree = "<group>"; };
 		579183E61D79170400835A7B /* PBSOtherTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSOtherTool.h; sourceTree = "<group>"; };
@@ -942,6 +953,7 @@
 		575270661D740AE70022EEA2 /* PBSController */ = {
 			isa = PBXGroup;
 			children = (
+				5773F7301D7D564A00B50D27 /* iOSCharts */,
 				575270911D740E1B0022EEA2 /* PBSAlbumViewController.h */,
 				575270921D740E1B0022EEA2 /* PBSAlbumViewController.m */,
 			);
@@ -1116,6 +1128,10 @@
 		5752707A1D740AE70022EEA2 /* PBSCategories */ = {
 			isa = PBXGroup;
 			children = (
+				578F35A71D9288C300C2F13A /* NSArray+Extension.h */,
+				578F35A81D9288C300C2F13A /* NSArray+Extension.m */,
+				578F35A91D9288C300C2F13A /* NSDictionary+Extension.h */,
+				578F35AA1D9288C300C2F13A /* NSDictionary+Extension.m */,
 				57C4AD6F1D75819300D62D85 /* CornerRadiusCategory */,
 				5752709A1D7410790022EEA2 /* NSObject+PBSNextVc.h */,
 				5752709B1D7410790022EEA2 /* NSObject+PBSNextVc.m */,
@@ -1398,6 +1414,16 @@
 				576253C31D6EF51D005F370A /* Info.plist */,
 			);
 			path = ProjectBaseSetUITests;
+			sourceTree = "<group>";
+		};
+		5773F7301D7D564A00B50D27 /* iOSCharts */ = {
+			isa = PBXGroup;
+			children = (
+				5787E2E91D7E53BB008C39EF /* PieViewController.h */,
+				5787E2EA1D7E53BB008C39EF /* PieViewController.m */,
+				5787E2EB1D7E53BB008C39EF /* PieViewController.xib */,
+			);
+			path = iOSCharts;
 			sourceTree = "<group>";
 		};
 		579183E21D7914D600835A7B /* PBSModel */ = {
@@ -2581,6 +2607,7 @@
 				575270B31D74213F0022EEA2 /* MSAlertController.xib in Resources */,
 				579184001D795EBD00835A7B /* pkcs8_private_key.pem in Resources */,
 				57C4AD8F1D75857100D62D85 /* photoShutter2.caf in Resources */,
+				5787E2ED1D7E53BB008C39EF /* PieViewController.xib in Resources */,
 				575270B41D74213F0022EEA2 /* MSAlertController_ActionSheet.xib in Resources */,
 				579184011D795EBD00835A7B /* private_key.p12 in Resources */,
 				579184041D795EBD00835A7B /* rsa_public_key.pem in Resources */,
@@ -2677,6 +2704,7 @@
 				575270FA1D7431B00022EEA2 /* RTSpinKitPulseAnimation.m in Sources */,
 				57C4AC9B1D756ACA00D62D85 /* NSManagedObjectContext+Extensions.m in Sources */,
 				57C4AD191D756ACA00D62D85 /* UIImage+PDF.m in Sources */,
+				578F35AC1D9288C300C2F13A /* NSDictionary+Extension.m in Sources */,
 				575270FC1D7431B00022EEA2 /* RTSpinKitWanderingCubesAnimation.m in Sources */,
 				57C4AD611D756ACA00D62D85 /* UIWebView+Load.m in Sources */,
 				57C4AD041D756ACA00D62D85 /* UIColor+Modify.m in Sources */,
@@ -2684,6 +2712,7 @@
 				57C4AD1C1D756ACA00D62D85 /* UIImage+RoundedCorner.m in Sources */,
 				57C4ACC31D756ACA00D62D85 /* NSObject+AddProperty.m in Sources */,
 				57C4ACD71D756ACA00D62D85 /* NSString+Pinyin.m in Sources */,
+				578F35AB1D9288C300C2F13A /* NSArray+Extension.m in Sources */,
 				57C4AD661D756ACA00D62D85 /* UIWindow+Hierarchy.m in Sources */,
 				57C4AD541D756ACA00D62D85 /* UIViewController+BackButtonItemTitle.m in Sources */,
 				57C4AD5D1D756ACA00D62D85 /* UIWebView+Alert.m in Sources */,
@@ -2908,6 +2937,7 @@
 				57C4ACE81D756ACA00D62D85 /* NSUserDefaults+SafeAccess.m in Sources */,
 				57C4AD051D756ACA00D62D85 /* UIColor+Random.m in Sources */,
 				57C4ACAE1D756ACA00D62D85 /* NSDate+Formatter.m in Sources */,
+				5787E2EC1D7E53BB008C39EF /* PieViewController.m in Sources */,
 				575270C41D7427440022EEA2 /* UIColor+PBSCommonColor.m in Sources */,
 				575271101D743B980022EEA2 /* XTPopTableView.m in Sources */,
 				575270C11D74255F0022EEA2 /* PBSRegisterViewController.m in Sources */,

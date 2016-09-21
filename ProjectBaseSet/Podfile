@@ -17,4 +17,6 @@ target ‘ProjectBaseSet’ do
 
 
 
+pod 'iOS-Echarts', '~> 1.2.2'
+
 end
