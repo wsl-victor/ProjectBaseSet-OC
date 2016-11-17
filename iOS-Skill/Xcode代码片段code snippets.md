@@ -105,6 +105,10 @@ Xcode中的自定义的代码片段一般存放于：
     	并且别的mac机器上同样很方便地通过Git来更新代码片段。
     	
     	
-    	
+  git备份地址:
+  
+  下载后，拖入 ‘  ~/Library/Developer/Xcode/UserData/CodeSnippets  ’  文件夹重启xcode即可：
+ 
+  [https://github.com/wsl-victor/ProjectBaseSet-OC/tree/master/iOS-Skill/CodeSnippets](https://github.com/wsl-victor/ProjectBaseSet-OC/tree/master/iOS-Skill/CodeSnippets)
  
     
