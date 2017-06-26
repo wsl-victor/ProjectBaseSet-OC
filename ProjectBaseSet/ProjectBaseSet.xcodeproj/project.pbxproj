@@ -298,6 +298,7 @@
 		57C4AD991D75857100D62D85 /* LBXZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AD8A1D75857100D62D85 /* LBXZXCapture.m */; };
 		57C4AD9A1D75857100D62D85 /* ZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4AD8D1D75857100D62D85 /* ZXingWrapper.m */; };
 		93472F20615B8A078E66DA0B /* libPods-ProjectBaseSet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC49EA85B730D44E566BF154 /* libPods-ProjectBaseSet.a */; };
+		DC9C92951F00B74500950A84 /* PBSRegexPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9C92941F00B74500950A84 /* PBSRegexPattern.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -896,6 +897,8 @@
 		57C4AD8C1D75857100D62D85 /* ZXingWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXingWrapper.h; sourceTree = "<group>"; };
 		57C4AD8D1D75857100D62D85 /* ZXingWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXingWrapper.m; sourceTree = "<group>"; };
 		8CF9A5DE55ACA6E298B96C69 /* Pods-ProjectBaseSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectBaseSet.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectBaseSet/Pods-ProjectBaseSet.release.xcconfig"; sourceTree = "<group>"; };
+		DC9C92931F00B74500950A84 /* PBSRegexPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSRegexPattern.h; sourceTree = "<group>"; };
+		DC9C92941F00B74500950A84 /* PBSRegexPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSRegexPattern.m; sourceTree = "<group>"; };
 		EC49EA85B730D44E566BF154 /* libPods-ProjectBaseSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectBaseSet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -1376,6 +1379,7 @@
 		5762539B1D6EF51D005F370A /* ProjectBaseSet */ = {
 			isa = PBXGroup;
 			children = (
+				DC9C92921F00B70A00950A84 /* Tools */,
 				57B0D2BD1D76D59200EC879D /* Other */,
 				5762539F1D6EF51D005F370A /* AppDelegate.h */,
 				576253A01D6EF51D005F370A /* AppDelegate.m */,
@@ -2488,6 +2492,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DC9C92921F00B70A00950A84 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C92931F00B74500950A84 /* PBSRegexPattern.h */,
+				DC9C92941F00B74500950A84 /* PBSRegexPattern.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2861,6 +2874,7 @@
 				57C4ACE61D756ACA00D62D85 /* NSURLRequest+ParamsFromDictionary.m in Sources */,
 				57C4AD201D756ACA00D62D85 /* UIImageView+FaceAwareFill.m in Sources */,
 				57C4AD491D756ACA00D62D85 /* UIView+Find.m in Sources */,
+				DC9C92951F00B74500950A84 /* PBSRegexPattern.m in Sources */,
 				57C4ACB01D756ACA00D62D85 /* NSDate+Reporting.m in Sources */,
 				57C4AD3C1D756ACA00D62D85 /* UITableViewCell+NIB.m in Sources */,
 				57C4AD511D756ACA00D62D85 /* UIView+ViewController.m in Sources */,
